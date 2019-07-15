@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-alibaba-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-alibaba-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-dependencies/spring-cloud-alibaba-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-dependencies/spring-cloud-alibaba-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-nacos-consumer/spring-cloud-alibaba-nacos-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-nacos-consumer/spring-cloud-alibaba-nacos-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-nacos-provider/spring-cloud-alibaba-nacos-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-nacos-provider/spring-cloud-alibaba-nacos-provider.iml" />
     </modules>
   </component>

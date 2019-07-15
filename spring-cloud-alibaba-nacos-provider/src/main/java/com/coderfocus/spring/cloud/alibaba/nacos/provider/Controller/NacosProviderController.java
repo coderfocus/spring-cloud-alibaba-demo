@@ -9,6 +9,6 @@ public class NacosProviderController {
 
     @GetMapping("/echo/{message}")
     public String echo(@PathVariable(value = "message") String message){
-        return "Hellp Nacos" + message;
+        return "Hello Nacos " + message;
     }
 }
