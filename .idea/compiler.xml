@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-alibaba-nacos-consumer-feign" />
         <module name="spring-cloud-alibaba-nacos-provider" />
+        <module name="spring-cloud-alibaba-gateway" />
         <module name="spring-cloud-alibaba-nacos-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cloud-alibaba-dependencies" target="1.8" />
+      <module name="spring-cloud-alibaba-gateway" target="1.8" />
       <module name="spring-cloud-alibaba-nacos-consumer" target="1.8" />
       <module name="spring-cloud-alibaba-nacos-consumer-feign" target="1.8" />
       <module name="spring-cloud-alibaba-nacos-provider" target="1.8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-alibaba-gateway" options="-parameters" />
       <module name="spring-cloud-alibaba-nacos-consumer" options="-parameters" />
       <module name="spring-cloud-alibaba-nacos-consumer-feign" options="-parameters" />
       <module name="spring-cloud-alibaba-nacos-provider" options="-parameters" />
